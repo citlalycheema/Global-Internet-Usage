@@ -6,7 +6,7 @@ This presentation analyzes global internet usage and specifically looks at the r
 
 Files for the project:
   - `gapminder_internet.csv` replication data
-  - `Presentation 2. Rmd` code for creating the slides
+  - `global_internet_usage. Rmd` code for creating the slides
   - `index.html` with the output
 
 
