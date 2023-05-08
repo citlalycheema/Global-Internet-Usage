@@ -1,0 +1,75 @@
+---
+title: "Global Internet Usage"
+author: "Citlaly Cheema"
+institute: "Data Analysis, American University"
+date: "April 7, 2023"
+output:
+  xaringan::moon_reader:
+    css: ["rladies", "rladies-fonts"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+  options(htmltools.dir.version = FALSE)
+  knitr::opts_chunk$set(
+    message=F, warning=F, eval=T, echo=F, 
+    fig.align='center', dev='svglite', dpi = 800
+  )
+  
+  library(tidyverse)
+  library(patchwork)
+  library(knitr)
+```
+
+# Motivation
+
+Digital technology is a current "hot topic" for development
+
+- There are over 5.16 billion internet users in the world.
+- In last 12 months, internet users grew around 98 million and this number will continue to grow.
+- However, there is still a huge "usage gap."
+
+<center>
+
+![internet](https://telecoms.com/wp-content/blogs.dir/1/files/2015/01/Devices-Mobile-IoT-Things-Tablet-Content-2-Copy-600x285.jpg)
+
+<center>
+---
+# Data
+
+The data comes from a [GapMinder dataset](https://www.gapminder.org) and covers global internet usage.
+
+- There are 213 observations. These observations are a list of 213 countries across 4 variables:
+
+    - Country (unique identifier)
+    - Income Per Person (GDP per capita in US $)
+    - Internet Use Rate (People who have access to the worldwide network, rate is users per 100 people)
+    - Urban Rate (People living in urban areas, rate is percentage of total population)
+    
+- Data did not specify whether this was mobile internet usage or what the predetermined conditions were. 
+
+---
+# Relationship between Internet Use Rate and Urban Rate
+
+.pull-left-1[
+```{r fig1, out.width = '450px'}
+  knitr::include_graphics('myplot.svg')
+```
+]
+- The concentration of larger circles in the top right corner indicates that those who typically live in urban areas have a higher internet use rate.
+
+---
+# The Effect of Income Per Person on Internet Use Rate and Urban Rate
+
+```{r fig2, out.width = '650px'}
+  knitr::include_graphics('p3.svg')
+```
+
+
+- Income per person is positively correlated with urban rate.
+- The higher the income, the more higher internet use rate.
+
