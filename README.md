@@ -9,5 +9,6 @@ Files for the project:
   - `global_internet_usage. Rmd` code for creating the slides
   - `index.html` with the output
 
-See the poster here: (https://citlalycheema.github.io/Global-Internet-Usage-Presentation/#5)
+See the poster here: https://citlalycheema.github.io/Global-Internet-Usage-Presentation/#5
 
+If gh-pages does not work: another link: file:///Users/Citlaly/Desktop/Data%20Analysis/index.html#1
