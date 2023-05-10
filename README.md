@@ -10,3 +10,5 @@ Files for the project:
   - `index.html` with the output
 
 See the poster here: https://citlalycheema.github.io/Global-Internet-Usage-Presentation/#5
+
+file:///Users/Citlaly/Desktop/Data%20Analysis/global_internet_usage.html#1
