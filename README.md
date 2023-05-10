@@ -11,4 +11,4 @@ Files for the project:
 
 See the poster here: https://citlalycheema.github.io/Global-Internet-Usage-Presentation/#5
 
-If gh pages does not work: file:///Users/Citlaly/Desktop/Data%20Analysis/global_internet_usage.html#1
+If gh pages does not work, slides can be found here: file:///Users/Citlaly/Desktop/Data%20Analysis/global_internet_usage.html#1
